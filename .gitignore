@@ -1,0 +1,88 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+public/
+
+# Cache files
+.cache/
+.cache-loader/
+tmp/
+
+# Dependency directories
+jspm_packages/
+client/node_modules/
+server/node_modules/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Mac OS files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore yarn and pnpm files if using npm
+.yarn/
+.pnp/
+.pnp.js
+
+# Build tools
+*.eslintrc.js
+*.babelrc
+*.prettierrc
+
+# Parcel cache
+.parcel-cache/
+
+# Firebase functions cache
+firebase-debug.log
+.firebase/
+
+# SvelteKit
+.svelte-kit/
+
+# Windows files
+Thumbs.db
